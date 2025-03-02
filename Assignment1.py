@@ -1,7 +1,7 @@
 class User:
     """Represents a user who places an order."""
     def __init__(self, user_id, name, email, phone):
-        self.__user_id = user_id  # Private attribute
+        self.__user_id = user_id 
         self.__name = name
         self.__email = email
         self.__phone = phone
@@ -76,7 +76,7 @@ class Item:
 class Payment:
     """Handles payment processing for an order."""
     def __init__(self, payment_id, order_id, amount, payment_status):
-        self.__payment_id = payment_id  # Private attribute
+        self.__payment_id = payment_id 
         self.__order_id = order_id
         self.__amount = amount
         self.__payment_status = payment_status
@@ -93,7 +93,7 @@ class Payment:
 class Admin:
     """Represents an admin who manages orders and refunds."""
     def __init__(self, admin_id, name, role):
-        self.__admin_id = admin_id  # Private attribute
+        self.__admin_id = admin_id  
         self.__name = name
         self.__role = role
     
